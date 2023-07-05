@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+
+  # accept the request, receive the request, 
+  get "/songs", to: "songs#index"
 end
