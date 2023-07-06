@@ -6,4 +6,5 @@ Rails.application.routes.draw do
 
   # accept the request, receive the request, 
   get "/songs", to: "songs#index"
+  get "/songs/:id", to: "songs#show"
 end
